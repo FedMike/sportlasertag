@@ -1,0 +1,31 @@
+body {
+}
+
+.container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Tablet */
+// @media (max-width: 1199px) {
+//     .container {
+//         width: 900px;
+//     }
+// }
+
+/* Mobile */
+@media (max-width: 769px) {
+    .container {
+        padding: 0px 15px;
+    }
+}
+
+/* Mobile XS */
+// @media (max-width: 599px) {
+//     .container {
+//         width: 320px;
+//     }
+// }

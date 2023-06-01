@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <!-- encoding -->
+        <meta charset="UTF-8" />
+        <!-- Mobile support -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title and SEO -->
+        <title>SportLaserTag</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <section class="content">
+            <div class="container">
+                <h1 class="title-1">ЛИЧНЫЙ КАБИНЕТ</h1>
+                <div class="content__wrapper">
+                    <div class="content__left">
+                        <div class="user-info">
+                            <div class="user-info__row">
+                                <div class="user-info__photo">
+                                    <img src="./img/photo-01.jpg" alt="" />
+                                </div>
+                                <button class="button-edit">
+                                    <img src="./img/pencil-solid.svg" alt="" />
+                                </button>
+                            </div>
+                            <div class="user-info__row">
+                                <div class="user-info__name">Артем</div>
+                                <div class="user-info__status">Спортсмен</div>
+                            </div>
+                            <div class="user-info__row">
+                                <div class="user-info__id">ID (уникальный номер):</div>
+                                <div class="user-info__id-number">123123123123</div>
+                            </div>
+                        </div>
+                        <div class="tabs">
+                            <button class="active">Мой профиль</button>
+                            <button>Как вступить</button>
+                            <button>Записаться на мероприятие</button>
+                        </div>
+                    </div>
+                    <form class="form">
+                        <div class="form__top">
+                            <div class="form__group">
+                                <label for="name">ФИО</label>
+                                <input id="name" type="text" class="input" name="name" />
+                            </div>
+                            <div class="form__row">
+                                <div class="form__col">
+                                    <div class="form__group">
+                                        <label for="birthday">Дата рождения</label>
+                                        <input id="birthday" type="date" class="input" name="birthday" />
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="email">E-mail</label>
+                                        <input id="email" type="email" class="input" name="email" />
+                                    </div>
+                                </div>
+                                <div class="form__col">
+                                    <div class="form__group">
+                                        <label for="phone">Телефон</label>
+                                        <input id="phone" type="tel" class="input" name="phone" />
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="team">Название команды</label>
+                                        <input id="team" type="text" class="input" name="team" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="about">Немного о себе</label>
+                                <textarea class="input" name="about" id="about" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="form__bottom">
+                            <div class="form__title">РОДИТЕЛИ СПОРТСМЕНА</div>
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <label for="mother-name">Мама</label>
+                                    <input id="mother-name" type="text" class="input" name="team" placeholder="ФИО" />
+                                    <input type="tel" class="input" name="team" placeholder="Телефон" />
+                                    <input type="email" class="input" name="team" placeholder="E-mail" />
+                                </div>
+                                <div class="form__group">
+                                    <label for="father-name">Папа</label>
+                                    <input id="father-name" type="text" class="input" name="team" placeholder="ФИО" />
+                                    <input type="tel" class="input" name="team" placeholder="Телефон" />
+                                    <input type="email" class="input" name="team" placeholder="E-mail" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
